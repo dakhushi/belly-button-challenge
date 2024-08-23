@@ -1,4 +1,5 @@
 # belly-button-challenge
+<img width="50%" src="https://github.com/dakhushi/belly-button-challenge/blob/main/images/microbes-sem.jpg">
 
 ## Summary of the assignment
 
@@ -45,6 +46,9 @@ Detailed Steps:
    * marker: Determines the size and color of the bubbles.
    * Bubble Chart Layout: The layout for the bubble chart is defined with titles, margins, and axis labels.
    * Render Bubble Chart: The Plotly.newPlot() function is used to render the bubble chart on the HTML element with ID bubble.
+     
+     <img width="80%" src="https://github.com/dakhushi/belly-button-challenge/blob/main/images/bubble_chart.jpg">
+     
 - Bar Chart Data:
     * The bar chart displays the top 10 OTUs found in the sample.
     * yticks: The top 10 OTU IDs, mapped to strings and reversed to display the largest at the top.
@@ -52,6 +56,8 @@ Detailed Steps:
     * text: OTU labels for the top 10 samples.
     * Render Bar Chart: The Plotly.newPlot() function is used to render the bar chart on the HTML element with ID bar.
 
+ <img width="60%" src="https://github.com/dakhushi/belly-button-challenge/blob/main/images/barchart.jpg">
+ 
 **3. init() Function**
 This function initializes the dashboard when the page is first loaded.
 
@@ -61,6 +67,8 @@ Detailed Steps:
 - Populate Dropdown: The dropdown menu is populated with options for each sample in the dataset.
 - Initialize First Sample: The first sample in the list is selected by default, and the charts and metadata panel are built for this sample by calling buildCharts() and buildMetadata().
 
+<img width="30%" src="https://github.com/dakhushi/belly-button-challenge/blob/main/images/Demographic%20info.jpg">
+
 **4. optionChanged(newSample) Function**
 This function is triggered whenever a new sample is selected from the dropdown menu.
 
@@ -69,6 +77,9 @@ Detailed Steps:
 
 **5. init() Call**
 Finally, the init() function is called to initialize the dashboard when the page first loads.
+
+[Belly Button Biodiversity Dashboard](file:///C:/Users/Kothari/Desktop/Satyen's%20Desktop/00%20Data%20Analitics%20Bootcamp-Khushi/Module%2014-Interactive-Visualisations/belly-button-challenge/index.html)
+<img width="80%" src="https://github.com/dakhushi/belly-button-challenge/blob/main/images/dashboard%20.JPG">
 
 ### Resources:
 - [Belly Button Biodiversity dataset](https://robdunnlab.com/projects/belly-button-biodiversity/)
